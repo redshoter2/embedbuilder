@@ -8,8 +8,8 @@
 // URL options can override the options below.
 // Options set through the menu can override both until the page is refreshed.
 options = {
-    username: 'Discord Bot',
-    avatar: 'https://cdn.discordapp.com/embed/avatars/1.png',
+    username: "Roody's Shop",
+    avatar: 'https://roody.es/assets/images/logo.png',
     verified: false,
     noUser: false,
     data: null,
@@ -29,13 +29,24 @@ options = {
 
 // Default JSON object
 
-// json = {
-//     content: "Hello world",
-//     embed: {
-//         title: "A title",
-//         description: "A description",
-//     }
-// }
+json = {
+    content: "¡Hola! 👋",
+    embed: {
+        title: "Esto es un embed custom",
+        description: "¡Personalizalo a tu gusto! Usa el menú lateral de la izquierda para cambiar los valores que gustes, como título, descripción, color, imagen, etc.",
+        color: "#ff0000",
+        image: {
+            url: "https://roody.es/assets/images/roody_banner.webp"
+        },
+        thumbnail: {
+            url: "https://roody.es/assets/images/logo.png"
+        },
+        footer: {
+            text: "¡Gracias por usar Roody's Shop! Usa la escoba mágica para limpiar el embed.",
+            icon_url: "https://roody.es/assets/images/logo.png"
+        },
+     }
+ }
 
 
 // Write any code under the 'DOMContentLoaded' event to run after the page has loaded.
